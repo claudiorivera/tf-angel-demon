@@ -1,6 +1,22 @@
 @tailwind base;
 
+@import url("https://fonts.googleapis.com/css2?family=Creepster&family=Dancing+Script:wght@600&display=swap");
+
 /* Write your own custom base styles here */
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.angel {
+  font-family: "Dancing Script", sans-serif;
+  font-size: 5rem;
+}
+
+.demon {
+  font-family: "Creepster", sans-serif;
+  font-size: 5rem;
+}
 
 /* Start purging... */
 @tailwind components;
@@ -8,9 +24,6 @@
 /* Stop purging. */
 
 /* Write your own custom component styles here */
-.btn-blue {
-  @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
-}
 
 /* Start purging... */
 @tailwind utilities;

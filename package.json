@@ -7,9 +7,13 @@
     "start": "next start"
   },
   "dependencies": {
+    "@teachablemachine/image": "^0.8.4",
+    "@tensorflow/tfjs": "^2.7.0",
+    "@tensorflow/tfjs-node": "^2.7.0",
     "next": "latest",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "sass": "^1.28.0"
   },
   "devDependencies": {
     "postcss-flexbugs-fixes": "4.2.1",

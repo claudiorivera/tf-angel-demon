@@ -1,0 +1,9 @@
+{
+  "exclude": ["node_modules, .next, .vercel"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["components/*"]
+    }
+  }
+}
