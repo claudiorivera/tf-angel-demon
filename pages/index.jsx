@@ -77,7 +77,7 @@ const IndexPage = () => {
     // predict can take in an image, video or canvas html element
     const prediction = await model.predict(webcam.canvas);
     for (let i = 0; i < maxPredictions; i++) {
-      if (prediction[i].probability.toFixed(2) > 0.5) {
+      if (prediction[i].probability.toFixed(2) > 0.75) {
         setBgColor(
           prediction[i].className === "Rachel"
             ? dark
