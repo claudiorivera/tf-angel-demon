@@ -84,7 +84,7 @@ const IndexPage = () => {
             ? dark
             : prediction[i].className === "Oliver"
             ? light
-            : light
+            : neutral
         );
       }
     }
