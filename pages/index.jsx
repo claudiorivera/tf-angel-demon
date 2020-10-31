@@ -1,16 +1,13 @@
-import Button from "@components/Button";
 import Fire from "@components/Fire";
 import Heart from "@components/Heart";
-import Hero from "@components/Hero";
 import * as tmImage from "@teachablemachine/image";
 import { useEffect, useState } from "react";
 
-const dark = "bg-black text-white";
-const light = "bg-pink-400 text-white";
-const neutral = "bg-white text-black";
-let model, webcam, maxPredictions;
-
 const IndexPage = () => {
+  const dark = "bg-black text-white";
+  const light = "bg-pink-400 text-white";
+  const neutral = "bg-white text-black";
+  let model, webcam, maxPredictions;
   const [showStartButton, setShowStartButton] = useState(true);
   const [bgColor, setBgColor] = useState(neutral);
   const [showFlames, setShowFlames] = useState(false);
@@ -33,10 +30,12 @@ const IndexPage = () => {
     setShowHearts(false);
     setShowFlames(true);
   };
+
   const handleLight = () => {
     setShowHearts(true);
     setShowFlames(false);
   };
+
   const handleNeutral = () => {
     setShowHearts(false);
     setShowFlames(false);
@@ -91,21 +90,27 @@ const IndexPage = () => {
   };
 
   return (
-    <div className="center">
-      <div className={bgColor + " h-screen"}>
-        <Hero>
-          <h1>
-            <span className="angel">Angel</span> &amp;{" "}
-            <span className="demon">Demon</span>
-          </h1>
-        </Hero>
+    <div className="center font-thin">
+      <div className={"h-screen " + bgColor}>
+        <div className="flex justify-center flex-wrap items-baseline">
+          <div className="px-3 angel">Angel</div>
+          <div className="px-5 text-3xl">or</div>
+          <div className="px-3 demon">Demon</div>
+        </div>
         <div>
-          {showStartButton && <Button onClick={handleStart}>Start</Button>}
+          {showStartButton && (
+            <button
+              className="bg-accent-1 text-white font-bold py-2 px-4 rounded"
+              onClick={handleStart}
+            >
+              Start
+            </button>
+          )}
         </div>
         <div className="flex flex-row justify-evenly align-baseline">
           {showFlames && <Fire />}
           {showHearts && <Heart />}
-          <div id="webcam-view"></div>
+          <div id="webcam-view" className="my-20"></div>
           {showFlames && <Fire />}
           {showHearts && <Heart />}
         </div>
