@@ -24,7 +24,7 @@
   },
   "resolutions": {
     "elliptic": "^6.5.4",
-    "ini": "^1.3.6"
+    "ini": "^2.0.0"
   },
   "license": "MIT"
 }
