@@ -16,11 +16,13 @@
     "sass": "1.32.8"
   },
   "devDependencies": {
+    "autoprefixer": "^9",
+    "postcss": "^7",
     "postcss-flexbugs-fixes": "5.0.2",
     "postcss-preset-env": "6.7.0",
     "stylelint": "13.13.1",
     "stylelint-config-standard": "22.0.0",
-    "tailwindcss": "1.9.6"
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   },
   "resolutions": {
     "elliptic": "^6.5.4",
