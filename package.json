@@ -16,8 +16,8 @@
     "sass": "1.32.8"
   },
   "devDependencies": {
-    "autoprefixer": "^9",
-    "postcss": "^7",
+    "autoprefixer": "9.8.6",
+    "postcss": "7.0.35",
     "postcss-flexbugs-fixes": "5.0.2",
     "postcss-preset-env": "6.7.0",
     "stylelint": "13.13.1",
