@@ -20,7 +20,7 @@
     "postcss-preset-env": "6.7.0",
     "stylelint": "13.13.1",
     "stylelint-config-standard": "22.0.0",
-    "tailwindcss": "1.9.6"
+    "tailwindcss": "2.1.4"
   },
   "resolutions": {
     "elliptic": "^6.5.4",
