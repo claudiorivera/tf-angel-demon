@@ -23,7 +23,7 @@
     "@fullhuman/postcss-purgecss": "4.0.3",
     "postcss-flexbugs-fixes": "5.0.2",
     "postcss-preset-env": "6.7.0",
-    "stylelint": "13.13.1",
+    "stylelint": "14.0.0",
     "stylelint-config-standard": "22.0.0"
   },
   "resolutions": {
