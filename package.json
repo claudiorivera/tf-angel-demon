@@ -10,7 +10,7 @@
     "@tailwindcss/postcss7-compat": "npm:@tailwindcss/postcss7-compat",
     "@teachablemachine/image": "0.8.5",
     "@tensorflow/tfjs": "3.10.0",
-    "@tensorflow/tfjs-node": "3.9.0",
+    "@tensorflow/tfjs-node": "3.10.0",
     "autoprefixer": "10.3.7",
     "next": "11.1.2",
     "postcss": "8.3.11",
